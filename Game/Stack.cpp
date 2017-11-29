@@ -171,7 +171,7 @@ void Stack::display()
 void Stack::mix()
 {
     /* initialize random seed: */
-    srand (time(NULL));
+    srand( static_cast<unsigned int>(time(NULL)));
     
     for(int i = 0; i < 100; ++i) {
     
