@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BD892B01BCF219C0001DDBE /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD892AF1BCF219C0001DDBE /* Card.cpp */; };
+		7BD892B81BCF28430001DDBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD892B71BCF28430001DDBE /* main.cpp */; };
+		7BD892BB1BCF286E0001DDBE /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD892B91BCF286E0001DDBE /* Deck.cpp */; };
+		7BD892BE1BCF28AF0001DDBE /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD892BD1BCF28AF0001DDBE /* Player.cpp */; };
+		7BD892DA1BD85A0E0001DDBE /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD892D81BD85A0E0001DDBE /* Stack.cpp */; };
+		7BDCA7771BF1733100AEAAD5 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCA7751BF1733100AEAAD5 /* Node.cpp */; };
+		7BDCA77A1BF1735600AEAAD5 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCA7781BF1735600AEAAD5 /* LinkedList.cpp */; };
+		7BDCA7BE1C0D254300AEAAD5 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCA7BC1C0D254300AEAAD5 /* Hand.cpp */; };
+		7BFFC9931C346892002BBCAB /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BFFC9911C346892002BBCAB /* Game.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BD892AA1BCF219B0001DDBE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BD892AC1BCF219C0001DDBE /* Blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD892AF1BCF219C0001DDBE /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		7BD892B61BCF21C20001DDBE /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		7BD892B71BCF28430001DDBE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7BD892B91BCF286E0001DDBE /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		7BD892BA1BCF286E0001DDBE /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		7BD892BC1BCF28950001DDBE /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		7BD892BD1BCF28AF0001DDBE /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		7BD892D81BD85A0E0001DDBE /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		7BD892D91BD85A0E0001DDBE /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		7BDCA7751BF1733100AEAAD5 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		7BDCA7761BF1733100AEAAD5 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		7BDCA7781BF1735600AEAAD5 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		7BDCA7791BF1735600AEAAD5 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		7BDCA7BC1C0D254300AEAAD5 /* Hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		7BDCA7BD1C0D254300AEAAD5 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		7BFFC9911C346892002BBCAB /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		7BFFC9921C346892002BBCAB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BD892A91BCF219B0001DDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BD892A31BCF219B0001DDBE = {
+			isa = PBXGroup;
+			children = (
+				7BD892AE1BCF219C0001DDBE /* Blackjack */,
+				7BD892AD1BCF219C0001DDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BD892AD1BCF219C0001DDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BD892AC1BCF219C0001DDBE /* Blackjack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD892AE1BCF219C0001DDBE /* Blackjack */ = {
+			isa = PBXGroup;
+			children = (
+				7BD892B71BCF28430001DDBE /* main.cpp */,
+				7BD892B61BCF21C20001DDBE /* Card.h */,
+				7BD892AF1BCF219C0001DDBE /* Card.cpp */,
+				7BD892D81BD85A0E0001DDBE /* Stack.cpp */,
+				7BD892BA1BCF286E0001DDBE /* Deck.h */,
+				7BD892B91BCF286E0001DDBE /* Deck.cpp */,
+				7BD892D91BD85A0E0001DDBE /* Stack.h */,
+				7BDCA7761BF1733100AEAAD5 /* Node.h */,
+				7BDCA7751BF1733100AEAAD5 /* Node.cpp */,
+				7BDCA7791BF1735600AEAAD5 /* LinkedList.h */,
+				7BDCA7781BF1735600AEAAD5 /* LinkedList.cpp */,
+				7BDCA7BD1C0D254300AEAAD5 /* Hand.h */,
+				7BDCA7BC1C0D254300AEAAD5 /* Hand.cpp */,
+				7BD892BC1BCF28950001DDBE /* Player.h */,
+				7BD892BD1BCF28AF0001DDBE /* Player.cpp */,
+				7BFFC9921C346892002BBCAB /* Game.h */,
+				7BFFC9911C346892002BBCAB /* Game.cpp */,
+			);
+			name = Blackjack;
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD892AB1BCF219B0001DDBE /* Blackjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD892B31BCF219C0001DDBE /* Build configuration list for PBXNativeTarget "Blackjack" */;
+			buildPhases = (
+				7BD892A81BCF219B0001DDBE /* Sources */,
+				7BD892A91BCF219B0001DDBE /* Frameworks */,
+				7BD892AA1BCF219B0001DDBE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blackjack;
+			productName = Game;
+			productReference = 7BD892AC1BCF219C0001DDBE /* Blackjack */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BD892A41BCF219B0001DDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bernice Tran";
+				TargetAttributes = {
+					7BD892AB1BCF219B0001DDBE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7BD892A71BCF219B0001DDBE /* Build configuration list for PBXProject "Blackjack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BD892A31BCF219B0001DDBE;
+			productRefGroup = 7BD892AD1BCF219C0001DDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BD892AB1BCF219B0001DDBE /* Blackjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BD892A81BCF219B0001DDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD892BE1BCF28AF0001DDBE /* Player.cpp in Sources */,
+				7BDCA7771BF1733100AEAAD5 /* Node.cpp in Sources */,
+				7BFFC9931C346892002BBCAB /* Game.cpp in Sources */,
+				7BDCA77A1BF1735600AEAAD5 /* LinkedList.cpp in Sources */,
+				7BD892B81BCF28430001DDBE /* main.cpp in Sources */,
+				7BDCA7BE1C0D254300AEAAD5 /* Hand.cpp in Sources */,
+				7BD892B01BCF219C0001DDBE /* Card.cpp in Sources */,
+				7BD892DA1BD85A0E0001DDBE /* Stack.cpp in Sources */,
+				7BD892BB1BCF286E0001DDBE /* Deck.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BD892B11BCF219C0001DDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BD892B21BCF219C0001DDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BD892B41BCF219C0001DDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Blackjack;
+			};
+			name = Debug;
+		};
+		7BD892B51BCF219C0001DDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Blackjack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BD892A71BCF219B0001DDBE /* Build configuration list for PBXProject "Blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD892B11BCF219C0001DDBE /* Debug */,
+				7BD892B21BCF219C0001DDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD892B31BCF219C0001DDBE /* Build configuration list for PBXNativeTarget "Blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD892B41BCF219C0001DDBE /* Debug */,
+				7BD892B51BCF219C0001DDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BD892A41BCF219B0001DDBE /* Project object */;
+}
